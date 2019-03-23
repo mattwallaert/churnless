@@ -1,0 +1,190 @@
+body {
+    background: url(images/bottom-gradient.png) 0 0 repeat-x #d0d0d0;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+#wrapper {
+    width: 1152px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+#header {
+    width: 1118px;
+    height: 76px;
+    background: url(images/header.png) 0 0 no-repeat;
+    margin-left: 10px;
+}
+
+#left {
+    margin-left: 27px;
+}
+
+#right {
+    margin-right: 27px;
+}
+
+#left, #right {
+    display: inline-block;
+    width: 266px;
+    height: 526px;
+    background: url(images/sidebar-bg.png) 0 0 no-repeat;
+    position: relative;
+    vertical-align: top;
+}
+
+#left h2, #right h2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fb961e;
+    color: #252525;
+    font-size: 12px;
+    font-family: Helvetica, arial, sans-serif;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#left ul, #right ul {
+    list-style-type: none;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+
+#left li {
+    margin: 5px 0 5px 5px;
+}
+
+#left .name{
+    font-size: 11px;
+    border-right: 1px solid;
+    padding-right: 4px;
+}
+
+
+
+#left .cofounder {
+    color: #fb961e;
+    font-size: 11px;
+}
+
+#left .linkedin {
+    text-indent: -999em;
+    background: url(images/linkedin.png) 0 0 no-repeat;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+}
+
+#left .title {
+    font-size: 10px;
+}
+
+#left .email {
+    text-indent: -999em;
+    background: url(images/email.png) 0 0 no-repeat;
+    width: 13px;
+    margin: 0 2px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+top: 3px;
+}
+
+#left .avimatt {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#right ul {
+    font-size: 11px;
+}
+
+#right ul li {
+    line-height: 17px;
+    display: block;
+    padding-top: 2px;
+    margin-left: 8px;
+}
+
+#right ul li a{
+    display: inline-block;
+    margin: 0 3px;
+    position: relative;
+    top: 2px;
+    width: 13px;
+    height: 12px;
+    background: url(images/dot2.png) 0 0 no-repeat;
+}
+
+#right ul li a:hover {
+    background: url(images/dot1.png) 0 0 no-repeat;
+}
+
+#middle {
+    display: inline-block;
+width: 477px;
+font-family: Helvetia, arial, sans-serif;
+padding: 0 10px 10px 10px;
+margin: 0 21px;
+height: 505px;
+background: url(images/office.jpg) 0 bottom no-repeat;
+}
+
+#middle h2 {
+    color: #f29b31;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#middle p.intro {
+    font-size: 13px;
+    font-style: italic;
+    color: #000;
+}
+
+#middle p {
+    color: #363636;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.attr {
+    margin-top: 20px;
+}
+
+#footer {
+    width: 1120px;
+    margin-left: 10px;
+    height: 100px;
+    background: url(images/getraised.png) left 10px no-repeat;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+#footer p {
+    width: 850px;
+    margin-top: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #6e6d6d;
+    font-size: 18px;
+    line-height: 20px;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    float: right;
+}
+
+#footer p a{
+    color: #f7941e;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
